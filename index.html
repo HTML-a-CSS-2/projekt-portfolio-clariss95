@@ -1,15 +1,92 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Gwendolyn:wght@400;700&family=Merriweather:ital,wght@0,300;0,700;1,400&family=Mukta:wght@200;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    ahoj! ahoj2!ahoj3
+    <nav class="menu menu--black">
+        <ul class="menu__item"><a class="menu__item--font" href="http://127.0.0.1:5500/index.html">Home</a></ul>
+        <ul class="menu__item"><a class="menu__item--font" href="#my-garden">My Garden</a></ul>
+        <ul class="menu__item"><a class="menu__item--font" href="#contact">Contact</a></ul>
+        <ul class="menu__item"><a class="menu__item--font" href="#about">About the Project</a></ul>
+    </nav>
+
+    <header class="frontpage-header">
+        <div class="frontpage-header__background">
+            <img class="frontpage-header__background--size" src="/photos/background4.png" alt="background">
+
+        </div>
+
+        <div class="frontpage-header__logo">
+            <h1 class="frontpage-header__logo-text">Welcome to my
+                <h2 class="frontpage-header__logo-text--cursive">Garden</h2>
+            </h1>
+        </div>
+    </header>
+
+    <a name="about"></a>
+    <section class="about">
+
+        <div class="about__headline2">
+            <h2 class="about__headline2--font">
+                About this Project
+            </h2>
+        </div>
+        <div class="about__intro">
+            <p class="about__intro--font">
+                I made this website to share my plants and their lives. And also to motivate myself and others to learn more about keeping plants alive. I plan to keep track of the wellbeing of my plants here (so far it is rather poor...). And I am hoping to motivate
+                every amateur plant care taker, such as myself, to do better and to not give up! Our plants NEED us!
+
+            </p>
+        </div>
+
+
+    </section>
+    <div class="separator">
+        <img class="separator_cactus-img--size" src="/photos/cactuses.png" alt="cactuses">
+    </div>
+
+    <a name="my-garden"></a>
+    <section class="my-garden">
+        <div class="my-garden_headline2">
+            <h2 class="my-garden_headline2--font">
+                My Garden
+            </h2>
+
+        </div>
+        <div class="my-garden_announcement">
+            <p class="my-garden_announcement--font">Pictures of my plants coming soon!</p>
+        </div>
+        <div class="my-garden_gallery">
+            <img class="my-garden_gallery--pic " src="/photos/plant_pic.png" alt="plant_illustration">
+            <img class="my-garden_gallery--pic" src="/photos/plant_pic1.png" alt="plant_illustration">
+            <img class="my-garden_gallery--pic" src="/photos/plant_pic2.png" alt="plant_illustration">
+            <img class="my-garden_gallery--pic" src="/photos/plant_pic3.png" alt="plant_illustration">
+        </div>
+    </section>
+
+    <a name="contact"></a>
+    <section class="contact">
+        <div class="contact_headline2">
+            <h2 class="contact_headline2--font">
+                Contact
+            </h2>
+
+        </div>
+
+
+
+    </section>
+
 </body>
 
 </html>
