@@ -80,10 +80,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    display: flex;
 }
 
-.separator_cactus-img--size {
+.separator__cactus-img--size {
     max-height: 200px;
+    align-self: center;
 }
 
 .my-garden {
@@ -91,28 +93,28 @@ body {
     padding-top: 10px;
 }
 
-.my-garden_headline2 {
+.my-garden__headline2 {
     color: black;
 }
 
-.my-garden_headline2--font {
+.my-garden__headline2--font {
     font-family: 'Gwendolyn', cursive;
     font-size: 40px;
 }
 
-.my-garden_announcement--font {
+.my-garden__announcement--font {
     padding: 0;
     font-family: 'Mukta', sans-serif;
 }
 
-.my-garden_gallery {
+.my-garden__gallery {
     display: flex;
     justify-content: space-between;
     max-width: 960px;
     flex-wrap: wrap;
 }
 
-.my-garden_gallery--pic {
+.my-garden__gallery--pic {
     display: flex;
     max-width: 50%;
 }
@@ -122,11 +124,38 @@ body {
     padding-top: 10px;
 }
 
-.contact_headline2 {
+.contact__headline2 {
     color: black;
 }
 
-.contact_headline2--font {
+.contact__headline2--font {
     font-family: 'Gwendolyn', cursive;
     font-size: 40px;
+}
+
+.contact__details--font {
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+.social-media__icon--green {
+    color: #232b2b;
+    text-decoration: none;
+}
+
+.social-media__icon {
+    font-size: 60px;
+    margin: 50px 5px;
+}
+
+.footer--color {
+    background-color: #232b2b;
+    padding: 20px 0;
+}
+
+.footer--font {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
 }
