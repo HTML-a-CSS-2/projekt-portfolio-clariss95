@@ -70,6 +70,10 @@ body {
     font-size: 40px;
 }
 
+.about_icon {
+    float: right;
+}
+
 .about__intro {
     padding: 0;
     font-family: 'Mukta', sans-serif;
@@ -90,6 +94,10 @@ body {
 .my-garden {
     margin: 0 80px 0 80px;
     padding-top: 10px;
+}
+
+.my-garden_icon {
+    float: right;
 }
 
 .my-garden__headline2 {
@@ -133,6 +141,10 @@ body {
 .contact {
     margin: 0 80px 0 80px;
     padding-top: 10px;
+}
+
+.contact_icon {
+    float: right;
 }
 
 .contact__headline2 {
@@ -248,6 +260,11 @@ body {
     .contact__headline2--font {
         font-size: 40px;
     }
+    .about_icon,
+    .my-garden_icon,
+    .contact_icon {
+        display: none;
+    }
 }
 
 
@@ -331,5 +348,10 @@ body {
     }
     .contact__headline2--font {
         font-size: 25px;
+    }
+    .about_icon,
+    .my-garden_icon,
+    .contact_icon {
+        display: none;
     }
 }
