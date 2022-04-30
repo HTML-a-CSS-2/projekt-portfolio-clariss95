@@ -58,7 +58,11 @@
 
     </section>
     <div class="separator">
-        <img class="separator__cactus-img--size" src="/photos/cactuses.png" alt="cactuses">
+        <picture class="separator__cactus-img--size">
+            <source media="(max-width: 390px)" srcset="/photos/line.png" width="200">
+            <source media="(min-width: 391px)" srcset="/photos/cactuses.png" width="500">
+            <img src="/photos/cactuses.png" alt="cactuses">
+        </picture>
     </div>
 
 
@@ -78,11 +82,11 @@
             <p class="my-garden__announcement--font">Meet my plants.</p>
         </div>
         <div class="my-garden__gallery">
-            <img class="my-garden__gallery--pic1 " src="/photos/pic1.png" alt="plant_illustration" width="400" height="400">
+            <img class="my-garden__gallery--pic1" src="/photos/pic1.png" alt="plant_illustration" width="400" height="400">
             <img class="my-garden__gallery--pic2" src="/photos/pic2.png" alt="plant_illustration" width="400" height="400">
             <img class="my-garden__gallery--pic3" src="/photos/pic3.png" alt="plant_illustration" width="400" height="400">
-            <img class="my-garden__gallery--pic4" src="/photos/pic4.png" alt="plant_illustration" width="400" height="400">
-            <img class="my-garden__gallery--pic5" src="/photos/pic5.png" alt="plant_illustration" width="800" height="800">
+            <img class="my-garden__gallery--pic4" src="/photos/pic4-mr.png" alt="plant_photo" srcset="photos/pic4-lr.png 500w, photos/pic4-mr.png 1000w, photos/pic4-hr.png 1600w" alt="plant_photo" width="400" height="400">
+            <img class="my-garden__gallery--pic5" src="/photos/pic5-mr.png" alt="plant_photo" srcset="photos/pic5-lr.png 500w, photos/pic5-mr.png 1000w, photos/pic5-hr.png 1600w" alt="plant_photo" width="800" height="800">
         </div>
     </section>
 
@@ -100,26 +104,26 @@
             <p class="contact__details--font">I will be delighted to hear from you through <a href="mailto:klara.steflova@gmail.com">my email</a>. You can also see my other projects on my <a href="https://github.com/clariss95">Github</a>.</p>
 
 
-            <p class="contact__details--font">
+            <p class=" contact__details--font ">
 
-                E-mail: <a href="mailto:klara.steflova@gmail.com">klara.steflova@gmail.com</a> <br> Github: <a href="https://github.com/clariss95">Clariss95</a>
+                E-mail: <a href=" mailto:klara.steflova@gmail.com ">klara.steflova@gmail.com</a> <br> Github: <a href=" https://github.com/clariss95 ">Clariss95</a>
 
             </p>
         </div>
 
-        <div class="social-media__icon">
-            <a class="social-media__icon--green email" href="mailto:klara.steflova@gmail.com" target="_blank">
-                <ion-icon name="mail-outline"></ion-icon>
+        <div class=" social-media__icon ">
+            <a class=" social-media__icon--green email " href=" mailto:klara.steflova@gmail.com " target=" _blank ">
+                <ion-icon name=" mail-outline "></ion-icon>
             </a>
 
-            <a class="social-media__icon--green github" href="https://github.com/clariss95" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
+            <a class=" social-media__icon--green github " href=" https://github.com/clariss95 " target=" _blank ">
+                <ion-icon name=" logo-github "></ion-icon>
             </a>
 
 
 
-            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <script type=" module " src=" https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "></script>
+            <script nomodule src=" https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "></script>
 
         </div>
 
@@ -129,8 +133,8 @@
 
     </section>
 
-    <footer class="footer--color">
-        <p class="footer--font">© 2022, Klara Steflova</p>
+    <footer class=" footer--color ">
+        <p class=" footer--font ">© 2022, Klara Steflova</p>
     </footer>
 
 </body>
