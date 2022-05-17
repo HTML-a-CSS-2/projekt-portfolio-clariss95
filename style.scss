@@ -1,3 +1,16 @@
+@mixin grid($rowGap, $columnGap, $gridRows, $gridColumns) {
+    row-gap: $rowGap;
+    column-gap: $columnGap;
+    grid-template-rows: $gridRows;
+    grid-template-columns: $gridColumns;
+}
+
+@mixin flexbox($width, $display, $contentPosition) {
+    width: $width;
+    display: $display;
+    justify-content: $contentPosition;
+}
+
 $primary: white;
 $secondary: #232b2b;
 $links: #216363;
@@ -101,9 +114,7 @@ body {
 .separator {
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    display: flex;
-    justify-content: center;
+    @include flexbox(70%, flex, center)
 }
 
 .separator__cactus-img--size {
@@ -135,10 +146,7 @@ body {
 
 .my-garden__gallery {
     display: grid;
-    grid-template-columns: repeat(2, minmax(300px, max-content));
-    grid-template-rows: 1fr 1fr 20rem;
-    row-gap: 5px;
-    column-gap: 5px;
+    @include grid(5px, 5px, 1fr 1fr 20rem, repeat(2, minmax(300px, max-content)))
 }
 
 .my-garden__gallery--pic1,
